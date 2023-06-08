@@ -1,0 +1,68 @@
+*{ /* リセットCSS*/
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+header{
+  width: 100%;
+  background-color: #ff00ff;
+  padding:30px 20px;
+  display: flex;
+  justify-content:flex-end;
+}
+
+header > :first-child{
+  margin-right: auto;
+}
+
+header > div{
+  flex-basis:140px;
+  background-color: #fbb3ff;
+  height: 70px;
+  margin:0 10px;
+}
+
+main{
+  display: flex;
+  justify-content:center;
+}
+
+.leftbar{
+  width: 300px;
+  background-color: #d8ffb6;
+}
+
+.rightbar{
+  background-color: #00b522;
+  padding: 20px;
+  max-width: 700px;
+  flex-grow:1;
+  display: flex;
+  flex-wrap:wrap;
+  justify-content:center;
+}
+
+.rightbar > div{
+  background-color: #fff75a;
+  height: 130px;
+  flex-basis:200px;
+  margin: 10px;
+}
+
+footer{
+  background-color: #52a1ff;
+  width: 100%;
+  padding:20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:center;
+}
+
+footer > div{
+  background-color: #b6e7ff;
+  width: 45%;
+  max-width: 600px;
+  height: 40px;
+  margin:10px;
+}
